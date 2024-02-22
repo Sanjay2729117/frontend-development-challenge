@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .flex2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4vh;
+    }
+    .button{
+color: hsl(0, 0%, 100%);
+background-color:  hsl(0, 0%, 20%);
+width: 75vw;
+padding: 10px 20px;
+text-align: center;
+border-radius: 5px;
+font-weight: 600;
+transition: all 0.2s linear;
+    }
+    .button:hover{
+      color: hsl(0, 0%, 8%);
+      background-color: hsl(75, 94%, 57%);
+    }
+    body{
+      font-family: "Inter", sans-serif;
+background-color: hsl(0, 0%, 8%);
+    }
+    .flex1{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      gap: 2vh;
+      align-items: center;
+
+    }
+    .bg{
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 15px;
+    }
+    img{
+      border-radius: 50%;
+     background-position: center;
+     background-repeat: no-repeat; 
+    }
+    .h2{
+      color: hsl(75, 94%, 57%);
+    }
+    .h1{
+      color: hsl(0, 0%, 100%);
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .h3{
+      
+      color: hsl(0, 0%, 100%);
+      font-weight: 400;
+      font-size: 12px;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body >
+  <div class="flex1 mt-5 ml-[5vw] h-[90vh] w-[90vw] md:w-96 bg  md:ml-[40%]">
+  <img src="./assets/images/avatar-jessica.jpeg" alt="img" class="w-28 h-28 ">
+  <div class="h1">SANJAY A</div>
+  <div class="h2">Coimbatore, TamilNadu</div>
+  <div class="h3">"Front-end developer and avid reader."</div> 
+  <div class="flex2">
+  <button class="button md:w-80">GitHub</button> 
+  <button class="button md:w-80">Frontend Mentor</button> 
+  <button class="button md:w-80">LinkedIn</button> 
+  <button class="button md:w-80">Twitter</button> 
+  <button class="button md:w-80">Instagram</button> 
+</div>
+</div>
+ 
+</body>
+</html>
